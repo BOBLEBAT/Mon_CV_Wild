@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'ubuntu_titlingbold';
+    src: url('UbuntuTitling-Bold-webfont.eot');
+    src: url('UbuntuTitling-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('UbuntuTitling-Bold-webfont.woff') format('woff'),
+         url('UbuntuTitling-Bold-webfont.ttf') format('truetype'),
+         url('UbuntuTitling-Bold-webfont.svg#ubuntu_titlingbold') format('svg');
+}
+body
+	{
+		font-family: 'ubuntu_titlingbold', Times New Roman, serif;
+		background-color: rgb(104,187,255);
+	}
+#header
+	{
+		background-color: rgba(0,0,255,0.2);
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+	}
+h1
+{
+	color: blue;
+	font-size: 90px;
+	text-align: center;
+	text-shadow: 0px 0px 30px #FFF;
+}
+#container
+	{
+		background-color: rgba(0,0,255,0.2);
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+		display: flex;
+		justify-content: center;
+	}
+#left-box
+	{
+		background-color: rgb(9,30,45);
+		width: 35%;
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+		color: white;
+	}
+p
+	{
+		word-wrap: break-word;
+	}
+#left-box .liPremier
+	{
+		color: blue;
+		text-shadow: 0px 0px 30px #00f;
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+#left-box .liSecondaire
+	{
+		color: white;
+		text-shadow: 0px 0px 0px #000;
+		font-size: 15px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+.photoCV
+	{
+		position: left;
+		width: 40%;
+        float: left;
+		margin-top:  15px;
+		margin-bottom:  15px;
+        flex-wrap: wrap;
+        transform: rotate(90deg);
+		border: 5px solid white;
+	}
+.etonner,.music,.moto,.batterie,.cuisine,.ange,.poisson,.bin
+	{
+		width: 20%;
+	}
+#right-box
+	{
+		/*background-color: rgb(104,187,255);*/
+				background-color: rgba(0,0,255,0.5);
+
+		width: 65%;
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+		position: right;
+	}
+#experiences-box
+	{
+		background-color: white;
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+		box-shadow: 6px 6px 8px black;
+	}
+#experiences-box h2
+	{
+		text-shadow: 0px 0px 30px #f00;
+	}
+.experience
+	{
+		background-color: white;
+		margin-left: 1em;
+	}
+.experience h3
+	{
+		color: blue;
+		text-shadow: 0px 0px 30px #0ff;
+	}
+.experience p
+	{
+		color: blue;
+		margin-left: 2em;
+	}
+#studies-box
+	{
+		background-color: white;
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+		box-shadow: 6px 6px 8px black;
+	}
+#studies-box h2
+	{
+		text-shadow: 0px 0px 30px #f00;
+	}
+
+.study
+	{
+		background-color: white;
+		/*margin: 10px;
+		padding: 10px;*/
+		margin-left: 1em;
+	}
+.study h3
+	{
+		color: blue;
+		text-shadow: 0px 0px 30px #0ff;
+	}
+.study p
+	{
+		color: blue;
+		margin-left: 2em;
+	}
+#footer
+	{
+		background-color: rgba(0,0,255,0.2);
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+	}
+#footer p
+{
+	color: blue;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 0px 0px 20px #FFF;
+}
